@@ -32,4 +32,4 @@ or
 ```curl -fsSL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBCBE1BABCFC2B3D2" | gpg --import```    
 
 ### Download from Github
-lk-pub.key
+Fetch ```lk-pub.key``` from this repository.
