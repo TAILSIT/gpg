@@ -1,4 +1,4 @@
-# Public GPG keys from TAILSIT
+# GPG keys used at TAILSIT
 
 ## Lars Kielhorn
 
