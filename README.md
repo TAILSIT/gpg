@@ -1,4 +1,4 @@
-# GPG keys used at TAILSIT
+# Public GPG keys
 
 ## Lars Kielhorn
 
@@ -22,11 +22,12 @@ sub   rsa4096 2025-03-12 [A] [expires: 2028-03-11]
 or    
 ```gpg --keyserver keyserver.ubuntu.com --recv-keys BCBE1BABCFC2B3D2```
 
-### Manually fetch the key
+### Fetch the key manually
 If the keyserver is unreachable, you can manually download the key:    
 ```curl -fsSL "https://keys.openpgp.org/vks/v1/by-fingerprint/2129A9FCB4081B4F2158E46BBCBE1BABCFC2B3D2" | gpg --import```    
 or    
 ```curl -fsSL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBCBE1BABCFC2B3D2" | gpg --import```    
 
-### Download from Github
-Fetch ```lk-pub.key``` from this repository.
+### Download from here
+Simply fetch ```lk_pub_key.asc``` from this repository and issue
+```git import lk_pub_key.asc```.
